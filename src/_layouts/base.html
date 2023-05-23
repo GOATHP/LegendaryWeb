@@ -14,8 +14,16 @@
         }
         
     </style>
+    <script>
+        var button = document.getElementById("pills-contact-tab");
+
+    button.addEventListener("click", function() {
+    button.style.backgroundColor = "#009490";
+    button.style.color = "white";
+    });
+    </script>
 </head>
-<header>
+<header  style="color : black;">
     <nav id="nav">
         {% include nav2.html %}
     </nav>
